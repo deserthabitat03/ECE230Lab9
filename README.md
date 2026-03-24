@@ -19,6 +19,10 @@ In this lab, you learned about the basic building block of sequential circuits: 
 
 ###  Why can we not just use structural Verilog to implement latches?
 
+Structural Verilog has no if-else, and the D-latch we implemented uses if-else.
+
 ### What is the meaning of always @(*) in a sensitivity block?
+
+The always @(*) means the sensitivity list is automatic, it automatically includes every signal that is read inside the always block.
 
 ### What importance is memory to digital circuits?
